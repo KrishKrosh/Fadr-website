@@ -121,6 +121,21 @@ select {
 
 .interestButton {
   background-color: transparent;
+  color: #9c9c9c;
+  padding: 10px;
+  border: 1px solid #9c9c9c;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.interestButton:hover {
+  background-color: #606060;
+  color: #fff;
+}
+
+.youtubeButton {
+  background-color: transparent;
   color: #606060;
   padding: 10px;
   border: 1px solid #606060;
@@ -129,7 +144,7 @@ select {
   cursor: pointer;
 }
 
-.interestButton:hover {
+.youtubeButton:hover {
   background-color: #606060;
   color: #fff;
 }
